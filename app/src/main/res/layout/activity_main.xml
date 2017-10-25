@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.sriyanksiddhartha.stylesandthemesdemo.MainActivity">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Move To Second Activity With Explode"
+        android:onClick="moveToSecondActivity"/>
+
+    <TextView
+        style="@style/AppSmallText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Small Text" />
+
+    <TextView
+        style="@style/AppMediumText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="Medium Text" />
+
+    <TextView
+        style="@style/AppLargeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text" />
+
+    <TextView
+        style="@style/AppExtraLargeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extra Large Text" />
+
+    <TextView
+        style="@style/AppExtraLargeTextLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extra Large Light" />
+
+    <RadioButton
+    android:fontFamily="cursive"
+    android:textColor="@color/red"
+    android:textSize="30sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="My Radio Button"/>
+
+    <TextView
+        android:id="@+id/txvGradient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gradient"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shadow"
+        android:textColor="#616161"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:shadowColor="#5000"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        />
+
+</LinearLayout>
